@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/art-portfolio/static/css/main.a601a206.css",
+    "main.js": "/art-portfolio/static/js/main.df049553.js",
+    "static/js/988.6a25501d.chunk.js": "/art-portfolio/static/js/988.6a25501d.chunk.js",
+    "static/media/The Lich.gif": "/art-portfolio/static/media/The Lich.7c012134e40ee53909f6.gif",
+    "static/media/Autumn Forest Path.gif": "/art-portfolio/static/media/Autumn Forest Path.ff7c9bc975d4fcee5765.gif",
+    "static/media/Lil Astronaut on 323.gif": "/art-portfolio/static/media/Lil Astronaut on 323.f6449530a798baea398b.gif",
+    "static/media/Slash.gif": "/art-portfolio/static/media/Slash.839f63499625b6486459.gif",
+    "static/media/Finn V Fern.png": "/art-portfolio/static/media/Finn V Fern.9c2764824ee4b8fce289.png",
+    "static/media/Gamer.ttf": "/art-portfolio/static/media/Gamer.df940615cdefaa01af9f.ttf",
+    "static/media/Lucy Cyberpunk.png": "/art-portfolio/static/media/Lucy Cyberpunk.7b90df31bc943c872bb1.png",
+    "static/media/Adora Catra.png": "/art-portfolio/static/media/Adora Catra.6048a7e217ffe1d01118.png",
+    "index.html": "/art-portfolio/index.html",
+    "main.a601a206.css.map": "/art-portfolio/static/css/main.a601a206.css.map",
+    "main.df049553.js.map": "/art-portfolio/static/js/main.df049553.js.map",
+    "988.6a25501d.chunk.js.map": "/art-portfolio/static/js/988.6a25501d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a601a206.css",
+    "static/js/main.df049553.js"
+  ]
+}
