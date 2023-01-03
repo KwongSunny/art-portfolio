@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "Gamer";
+  src: local("Gamer"), url('./fonts/Gamer.ttf') format('truetype');
+}
+
+*{
+  font-family: Gamer;
+  color: white;
+}
+
+.IntroPage{
+  height: 100vh;
+  background-color: #e9aee9;
+  text-align: center;
+  display:flex;
+  align-items: center;
+
+}
+
+.Intro{
+  width:100%;
+}
+
+.IntroLineOne{
+  font-size: 3rem
+}
+
+.LineOneHi{
+  animation-name: lineOneHiAppear;
+  animation-duration: 2s;
+}
+
+@keyframes lineOneHiAppear {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 100%;
+  }
+}
+
+.LineOneIm{
+  animation-name: lineOneImAppear;
+  animation-duration: 4s;
+}
+
+@keyframes lineOneImAppear {
+  0%{
+    opacity:0;
+  }
+  25%{
+    opacity: 0;
+  }
+  71%{
+    opacity: 100%;
+  }
+}
+
+.IntroLineTwo{
+  margin-top: -1rem;
+  font-size: 6rem;
+  animation-name: lineTwoAppear;
+  animation-duration:4s;
+}
+
+@keyframes lineTwoAppear {
+  0%{
+    opacity: 0;
+  }
+  33%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+
+.IntroLineThree{
+  font-size: 2rem;
+  animation-name: lineThreeAppear;
+  animation-duration: 6s;
+}
+
+@keyframes lineThreeAppear {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+
+.StaticPage{
+  background-color: #c1aee9;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+ 
+.AnimatedPage{
+  background-color: #aecfe9;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.AssetsPage{
+  background-color: #aee9cb;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.AssetsContainer img{
+  max-width:480px;
+  width: 80%;
+}
+
+.CommissionsPage{
+  background-color: #e5e9ae;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.AboutPage{
+  background-color: #e9bcae;
+  width: 100%;
+  text-align: center;
+  font-size: 1.4rem;
+  padding-bottom: 2rem;
+}
+
+.Bio{
+  display:block;
+  margin: auto;
+  width: 70%;
+  max-width: 480px;
+}
+
+.PageHeading{
+  padding: 2rem 0;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.ImageContainer{
+  display: block;
+  margin: auto;
+  padding: 0;
+  border: solid white 4px;
+  width: 70%;
+  max-width: 480px;
+  height: 50%;
+}
+
+img{
+  vertical-align: top;
+  width:100%;
+}
