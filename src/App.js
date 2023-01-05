@@ -10,6 +10,10 @@ import planet323 from './images/Lil Astronaut on 323.gif';
 import assets16 from './images/Assets16x16.png';
 import assets32 from './images/Assets32x32.png';
 
+import sheraDimensions from './images/commissionsPage/Adora Catra Dimensions.png';
+import lucyDimensions from './images/commissionsPage/Lucy Cyberpunk Dimensions.png';
+import finnVFernDimensions from './images/commissionsPage/Finn V Fern Dimensions.png';
+
 function App() {
   return (
     <div className="App">
@@ -25,47 +29,76 @@ function App() {
       </div>
       <div className='StaticPage'>
         <div className = 'PageHeading'>STATIC SCENES</div>
-        <div className='ImageContainer'>
-          <img src={finnVFern}></img>
-        </div>
-        <div className='ImageContainer'>
-          <img src={astronaut}></img>
-        </div>
-        <div className='ImageContainer'>
-          <img src = {lucy}></img>
-        </div>
-        <div className='ImageContainer'>
-          <img src = {shera}></img>
+        <div className='ImageContainers'>
+          <div className='ImageContainer'>
+            <img src={finnVFern} alt = ""></img>
+          </div>
+          <div className='ImageContainer'>
+            <img src={astronaut} alt = ""></img>
+          </div>
+          <div className='ImageContainer'>
+            <img src = {lucy} alt = ""></img>
+          </div>
+          <div className='ImageContainer'>
+            <img src = {shera} alt = ""></img>
+          </div>
         </div>
       </div>
       <div className = 'AnimatedPage'>
         <div className = 'PageHeading'>ANIMATED SCENES</div>
         <div className='ImageContainer'>
-          <img src = {forest}></img>
+          <img src = {forest} alt = ""></img>
         </div>
         <div className='ImageContainer'>
-          <img src = {lich}></img>
+          <img src = {lich} alt = ""></img>
         </div>
         <div className='ImageContainer'>
-          <img src = {slash}></img>
+          <img src = {slash} alt = ""></img>
         </div>
         <div className='ImageContainer'>
-          <img src = {planet323}></img>
+          <img src = {planet323} alt = ""></img>
         </div>
       </div>
       <div className='AssetsPage'>
         <div className = 'PageHeading'>ASSETS</div>
-        <div>16x16</div>
+        <div className='SubHeading'>16x16</div>
         <div className='AssetsContainer'>
-          <img src = {assets16}></img>
+          <img src = {assets16} alt = ""></img>
         </div>
-        <div>32x32</div>
+        <div className='SubHeading'>32x32</div>
         <div className='AssetsContainer'>
-          <img src = {assets32}></img>
+          <img src = {assets32} alt = ""></img>
         </div>
       </div>
       <div className='CommissionsPage'>
         <div className='PageHeading'>COMMISSIONS</div>
+        <div>50% upfront cost</div>
+        <div className='SubHeading'>STATIC SCENES</div>
+        <div className='ImageContainers'>
+          <div className='ImageContainer'>
+            <div>SMALL 72x72 - $20</div>
+            <img src = {sheraDimensions} alt = ""></img>
+          </div>
+          <div className='ImageContainer'>
+            <div>MEDIUM 120x120 - $30</div>
+            <img src = {lucyDimensions} alt = ""></img>
+          </div>
+          <div className='ImageContainer'>
+            <div>LARGE 180x180 - $45</div>
+            <img src = {finnVFernDimensions} alt = ""></img>
+          </div>
+        </div>
+        <div>Backgrounds are an additional $10</div>
+        <br />
+        <div className='SubHeading'>ANIMATED SCENES</div>
+        <div>$20-$24 depending on complexity</div>
+        <div>All work will be recorded</div>
+        <br />
+        <div className='SubHeading'>ASSETS</div>
+        <div>16x16: $3 per, $10 for 4-pack</div>
+        <div>32x32: $6 per, $22 for 4-pack</div>
+        <br />
+        <div>DIMENSIONS AND PRICING WILL VARY ON A PRODUCT TO PRODUCT BASIS</div>
       </div>
       <div className='AboutPage'>
         <div className='PageHeading'>ABOUT ME</div>

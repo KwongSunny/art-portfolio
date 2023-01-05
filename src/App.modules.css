@@ -124,6 +124,7 @@
   background-color: #e5e9ae;
   width: 100%;
   text-align: center;
+  font-size: 2rem;
   padding-bottom: 2rem;
 }
 
@@ -144,21 +145,28 @@
 
 .PageHeading{
   padding: 2rem 0;
-  font-size: 3rem;
+  font-size: 4rem;
   text-decoration: underline;
 }
 
+.SubHeading{
+  font-size: 3rem;
+}
+
+.ImageContainers{
+
+}
+
 .ImageContainer{
-  display: block;
+  display: inline-block;
   margin: auto;
-  padding: 0;
-  border: solid white 4px;
+  padding: 20px;
   width: 70%;
   max-width: 480px;
-  height: 50%;
 }
 
 img{
+  border: solid white 4px;
   vertical-align: top;
   width:100%;
 }
