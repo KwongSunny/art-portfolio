@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import './App.modules.css';
 import finnVFern from './images/Finn V Fern.png';
 import astronaut from './images/AstronautLarge.png';
@@ -15,8 +16,16 @@ import lucyDimensions from './images/commissionsPage/Lucy Cyberpunk Dimensions.p
 import finnVFernDimensions from './images/commissionsPage/Finn V Fern Dimensions.png';
 
 function App() {
+  const scrollMessageRef = useRef(null);
+
   return (
-    <div className="App">
+    <div className="App" onWheel={() => {
+        console.log("B");
+        scrollMessageRef.current.style.display = 'none';
+      }}>
+      <div className='ScrollMessage' ref = {scrollMessageRef}>
+        <div>Scroll down to see!</div>
+      </div>
       <div className='IntroPage'>
         <div className='Intro'>
           <div className = 'IntroLineOne'>
@@ -72,6 +81,7 @@ function App() {
       </div>
       <div className='CommissionsPage'>
         <div className='PageHeading'>COMMISSIONS</div>
+        <div>Email sunnydoescommissions@gmail.com or message me on my social network accounts for a personal art piece!</div>
         <div>50% upfront cost</div>
         <div className='SubHeading'>STATIC SCENES</div>
         <div className='ImageContainers'>
