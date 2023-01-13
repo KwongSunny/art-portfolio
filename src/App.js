@@ -101,7 +101,7 @@ function App() {
         <div>Backgrounds are an additional $10</div>
         <br />
         <div className='SubHeading'>ANIMATED SCENES</div>
-        <div>$20-$24 depending on complexity</div>
+        <div>$20-$24/hr depending on complexity</div>
         <div>All work will be recorded</div>
         <br />
         <div className='SubHeading'>ASSETS</div>
