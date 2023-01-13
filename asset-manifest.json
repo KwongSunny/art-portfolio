@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/art-portfolio/static/css/main.a59041b3.css",
-    "main.js": "/art-portfolio/static/js/main.fa47d5e1.js",
+    "main.css": "/art-portfolio/static/css/main.2e1a88ef.css",
+    "main.js": "/art-portfolio/static/js/main.d8590053.js",
     "static/js/988.6a25501d.chunk.js": "/art-portfolio/static/js/988.6a25501d.chunk.js",
     "static/media/The Lich.gif": "/art-portfolio/static/media/The Lich.7c012134e40ee53909f6.gif",
     "static/media/Lil Astronaut on 323.gif": "/art-portfolio/static/media/Lil Astronaut on 323.f6449530a798baea398b.gif",
@@ -13,12 +13,12 @@
     "static/media/Finn V Fern Dimensions.png": "/art-portfolio/static/media/Finn V Fern Dimensions.9c85327785758d6b607a.png",
     "static/media/Adora Catra.png": "/art-portfolio/static/media/Adora Catra.6048a7e217ffe1d01118.png",
     "index.html": "/art-portfolio/index.html",
-    "main.a59041b3.css.map": "/art-portfolio/static/css/main.a59041b3.css.map",
-    "main.fa47d5e1.js.map": "/art-portfolio/static/js/main.fa47d5e1.js.map",
+    "main.2e1a88ef.css.map": "/art-portfolio/static/css/main.2e1a88ef.css.map",
+    "main.d8590053.js.map": "/art-portfolio/static/js/main.d8590053.js.map",
     "988.6a25501d.chunk.js.map": "/art-portfolio/static/js/988.6a25501d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a59041b3.css",
-    "static/js/main.fa47d5e1.js"
+    "static/css/main.2e1a88ef.css",
+    "static/js/main.d8590053.js"
   ]
 }
